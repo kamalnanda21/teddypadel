@@ -34,6 +34,7 @@ a {
     text-decoration: none;
     color: var(--white-color);
     display: inline-block;
+    transition: all 0.3s ease;
 }
 
 a:hover {
@@ -73,7 +74,7 @@ ul {
 
 @media (min-width: 1200px) {
     .container {
-        max-width: 1400px;
+        max-width: 1300px;
     }
 }
 
@@ -231,7 +232,7 @@ ul {
     text-transform: uppercase;
 }
 
-.hero-section .row {
+.hero-section {
     padding-top: 72px;
     background: var(--banner-section-bg-color);
 }
@@ -291,11 +292,19 @@ h1.main-heading {
 
 /* Section two  */
 
-.col-sm-5 {
+.content-section {
     background: var(--light-purple-color);
 }
 
-.section-two-media {
+.section2-row {
+    align-items: flex-start !important;
+}
+
+.sec2-container {
+    margin-inline: 0;
+}
+
+.section-two-media iframe {
     padding: 76px 75px 0 93px;
 }
 
@@ -318,6 +327,7 @@ h1.main-heading {
 .btn-gap {
     margin-top: 41px;
     margin-bottom: 35px;
+    margin-left: 116px;
 }
 
 .orange-heading-section2 {
@@ -375,15 +385,15 @@ h1.main-heading {
 }
 
 .see-text {
-    padding-left: 220px;
+    padding-left: 190px;
 }
 
 .hear-text {
-    padding-left: 138px;
+    padding-left: 128px;
 }
 
 .do-text {
-    padding-left: 248px;
+    padding-left: 238px;
 }
 
 .medium-text {
@@ -392,6 +402,7 @@ h1.main-heading {
     line-height: 155px;
     font-weight: 400;
     color: var(--content-black-color);
+    padding-right: 47px;
 }
 
 .normal-text {
@@ -414,7 +425,7 @@ h1.main-heading {
 .lines h1::before {
     content: "";
     position: absolute;
-    right: 0;
+    right: 50px;
     bottom: 20px;
     background: #DDBBD8;
     height: 3px;
