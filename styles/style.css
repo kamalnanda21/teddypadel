@@ -187,6 +187,7 @@ ul {
     border: transparent;
     color: var(--content-black-color);
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .primary-btn:hover {
