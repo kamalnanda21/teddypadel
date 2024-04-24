@@ -123,7 +123,7 @@
     .medium-text {
         padding-right: 0px;
     }
-    .col-sm-8 {
+    .text-pad {
         text-align: center;
         padding-left: 30px;
         padding-right: 20px !important;
@@ -214,7 +214,7 @@
 
     /* section six  */
     
-    .banner-media video {
+    .banner-media iframe {
         padding: 50px 0;
         height: auto;
     }
@@ -353,7 +353,7 @@
     .medium-text {
         padding-right: 0px;
     }
-    .col-sm-8 {
+    .text-pad {
         text-align: center;
         padding-left: 60px;
     }
@@ -543,18 +543,22 @@
     }
     .row-flex {
         flex-wrap: wrap !important;
+        justify-content: end;
     }
     .see-text {
-        padding-left: 150px;
+        padding-left: 0;
+    }
+    .hear-text {
+        padding-left: 0;
     }
     .do-text {
-        padding-left: 150px;
+        padding-left: 0;
     }
-    .medium-text {
-        padding-right: 0px;
-    }
-    .col-sm-8 {
+    .text-pad {
         text-align: center;
+    }
+    .text-pad {
+        padding-left: 0;
     }
 
     /* section four  */
@@ -653,24 +657,17 @@
     /* section two  */
 
     .mq-sec2 {
-        justify-content: center;
         flex-wrap: nowrap;
     }
 
 
     /* section three  */
 
-    .see-text {
-        padding-left: 150px;
+    .row-flex {
+        flex-wrap: nowrap;
     }
-    .hear-text {
-        padding-left: 78px;
-    }
-    .do-text {
-        padding-left: 170px;
-    }
-    .medium-text {
-        padding-right: 0px;
+    .text-pad {
+        padding-left: 0;
     }
 
     /* section four  */
@@ -686,17 +683,9 @@
     /* section five  */
 
     .justify {
-        justify-content: space-evenly;
         flex-wrap: wrap;
     }
 
     /* section eight  */
-
-    .sec8-content {
-        padding-bottom: 101px;
-    }
-    .sec8-btn {
-        margin-bottom: 155px;
-    }
 
 }
