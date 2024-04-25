@@ -361,8 +361,8 @@ h1.main-heading {
 }
 
 .section-two-media {
-    text-align: center;
     padding-top: 75px;
+    margin-left: 80px;
 }
 
 .video-container {
@@ -418,7 +418,6 @@ h1.main-heading {
 
 .align {
     max-width: 429px;
-    margin-inline: auto;
 }
 
 .btn-gap {
@@ -474,7 +473,7 @@ h1.main-heading {
 }
 
 .setting {
-    padding-left: 80px;
+    padding-left: 35px;
 }
 
 .section-three iframe {
@@ -590,7 +589,7 @@ p.section4-heading {
 
 .cards-container {
     display: flex;
-    column-gap: 30px;
+    column-gap: 35px;
     padding-bottom: 75px;
 }
 

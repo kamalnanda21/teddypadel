@@ -71,6 +71,7 @@
     }
     .section-two-media {
         text-align: center;
+        margin-left: 0;
     }
     .section2-image1 {
         margin: 50px;
@@ -235,6 +236,8 @@
     }
     .top-bottom {
         margin: 0;
+        padding-top: 60px;
+        padding-bottom: 50px;
     }
 
 
@@ -320,6 +323,7 @@
     }
     .setting {
         margin-top: -30px;
+        padding-left: 10px;
     }
     /* .section2-image1, .section2-image2 {
         padding: 26px 75px 50px 178px;
@@ -339,6 +343,7 @@
 
     .medium-text {
         font-size: 50px;
+        line-height: 50px;
     }
     .big-text {
         font-size: 80px;
@@ -465,7 +470,6 @@
 
     .sec8-btn {
         margin-left: 0;
-        margin-bottom: 155px;
     }
     .sec8-heading {
         padding-left: 0;
@@ -476,6 +480,9 @@
     }
     .sec8 {
         display: inline;
+    }
+    .content-container {
+        margin-top: 100px;
     }
 
 }
