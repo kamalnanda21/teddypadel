@@ -273,14 +273,14 @@ li:nth-child(2) {
 }
 
 .banner-media {
-    /* width: 620px;
-    height: 575px; */
+    width: 620px;
+    height: 575px;
     position: relative;
     overflow: hidden;
     /* padding-top: 92%; */
 }
 
-.iframe-sec1 {
+.banner-media iframe {
     top: 0;
     left: 0;
     position: absolute;
@@ -289,9 +289,6 @@ li:nth-child(2) {
     border: 0;
     mask: url(#mask1);
 }
-
-/* .banner-media iframe {
-} */
 
 .pt-pb {
     margin-top: 80px;
